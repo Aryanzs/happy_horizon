@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ScrollIndicator from './components/ScrollIndicator';
+import InteractiveOfferingsCarousel from './components/InteractiveOfferingsCarousel';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
       {/* Static scroll‑cue between hero and main */}
       <ScrollIndicator />
+      <InteractiveOfferingsCarousel/>
 
       {/* The rest of your home page content */}
       <main className="min-h-screen p-8">

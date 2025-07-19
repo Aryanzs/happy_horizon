@@ -472,13 +472,7 @@ export default function HeroSection() {
           ))}
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/60">
-          <div className="flex flex-col items-center gap-2 animate-bounce">
-            <span className="text-sm">Scroll to explore</span>
-            <ArrowDown className="w-4 h-4" />
-          </div>
-        </div>
+
 
       </div>
     </section>
